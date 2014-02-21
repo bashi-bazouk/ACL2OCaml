@@ -1,8 +1,6 @@
 open Unix
 open Printf
 
-let address = ADDR_UNIX "/Users/cubit/Desktop/acl2server"
-
 type message = {
   message_type: string;
   body: string }
